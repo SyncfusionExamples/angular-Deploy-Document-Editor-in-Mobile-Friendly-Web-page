@@ -11,7 +11,7 @@
   Vue.use(DocumentEditorContainerPlugin);
   export default {
 data(){
-  return { serviceUrl:'https://ej2services.syncfusion.com/production/web-services/api/documenteditor/' }
+  return { serviceUrl:'https://services.syncfusion.com/vue/production/api/documenteditor/' }
 },
 provide: {
   //Inject require modules.
