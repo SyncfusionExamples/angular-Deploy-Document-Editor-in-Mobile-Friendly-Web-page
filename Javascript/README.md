@@ -1,4 +1,4 @@
-# Essential JS 2 QuickStart
+# Essential&reg; JS 2 QuickStart
 
 
 You can run the below command to install all dependent packages related to this project.
