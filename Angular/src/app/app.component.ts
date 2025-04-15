@@ -15,7 +15,7 @@ export class AppComponent {
   public serviceLink: string;
   titleBar: TitleBar;
   constructor() {
-    this.serviceLink = 'https://ej2services.syncfusion.com/production/web-services/api/documenteditor/';
+    this.serviceLink = 'https://services.syncfusion.com/angular/production/api/documenteditor/';
   }
   onCreate(): void {
     let titleBarElement: HTMLElement = document.getElementById('default_title_bar');

@@ -6,7 +6,7 @@ import * as ReactDOM from 'react-dom';
 DocumentEditorContainerComponent.Inject(Toolbar);
 class App extends Component {
 
-  hosturl = 'https://ej2services.syncfusion.com/production/web-services/api/documenteditor/';
+  hosturl = 'https://services.syncfusion.com/react/production/api/documenteditor/';
 container;
   onDocumentChange() {
     let proxy = this;
