@@ -9,11 +9,11 @@ This repository illustrates how to deploy Document Editor component in a Mobile-
 
 # Resources
 
-- **Product page:**   [Syncfusion® Javascript Word Processor](https://www.syncfusion.com/javascript-ui-controls/js-docx-editor) 
+- **Product page:**   [Syncfusion® Javascript Word Processor](https://www.syncfusion.com/docx-editor-sdk/javascript-docx-editor) 
 
 - **Documentation:**   [Syncfusion® Word Processor](https://help.syncfusion.com/document-processing/word/word-processor/javascript-es5/overview) 
 
-- **Online demo:**   [Syncfusion® Word Processor - Demo](https://ej2.syncfusion.com/demos/) 
+- **Online demo:**   [Syncfusion® Word Processor - Demo](https://document.syncfusion.com/#/docx-editor-sdk) 
 
 # Support and feedback
 
