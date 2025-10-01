@@ -1,8 +1,24 @@
 # Deploy Document Editor in Mobile-Friendly Web page
 
-At present, Document editor component is not responsive for mobile, and we haven't ensured the editing functionalities in mobile browsers. Whereas it works properly as a document viewer in mobile browsers.
+The Syncfusion Document Editor is a feature-rich Word processing component that enables you to create, edit, view, and print Word documents within your web applications. However, at present, Document editor component is not responsive for mobile, and we haven't ensured the editing functionalities in mobile browsers. Whereas it works properly as a document viewer in mobile browsers.
 
-Hence, it is recommended to switch the Document editor component as read-only in mobile browsers. Also, invoke fitPage method with FitPageWidth parameter in document change event, such as to display one full page by adjusting the zoom factor.
+To ensure optimal user experience on mobile devices, it is recommended to implement the following approach:
+
+- **Switch to Read-Only Mode**: Configure the Document Editor component as read-only in mobile browsers to prevent editing issues.
+
+- **Auto-fit Page Width**: Use the fitPage method with FitPageWidth parameter to display one full page by adjusting the zoom factor.
+
+- **Device Detection**: Implement user agent detection to identify mobile devices automatically.
+
+
+# Benefits
+- **Improved Mobile Experience**: Documents are displayed properly on smaller screens.
+
+- **Performance Optimization**: Read-only mode reduces resource consumption on mobile devices.
+
+- **Cross-Platform Compatibility**: Works across various mobile operating systems.
+
+- **Seamless Desktop Experience**: Full editing capabilities preserved for desktop users.
 
 This repository illustrates how to deploy Document Editor component in a Mobile-Friendly Web page.
 
