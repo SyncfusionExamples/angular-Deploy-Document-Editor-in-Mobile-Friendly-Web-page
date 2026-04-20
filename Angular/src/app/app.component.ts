@@ -4,6 +4,7 @@ import { TitleBar } from './title-bar';
 import { isNullOrUndefined } from '@syncfusion/ej2-base';
 
 @Component({
+  standalone: false,
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
@@ -15,7 +16,7 @@ export class AppComponent {
   public serviceLink: string;
   titleBar: TitleBar;
   constructor() {
-    this.serviceLink = 'https://ej2services.syncfusion.com/production/web-services/api/documenteditor/';
+    this.serviceLink = 'https://document.syncfusion.com/web-services/docx-editor/api/documenteditor/';
   }
   onCreate(): void {
     let titleBarElement: HTMLElement = document.getElementById('default_title_bar');
